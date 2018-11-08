@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="//atmpl.ru/design/adaptive-slider/2014/juicy-slider/juicyslider-min.css" rel="stylesheet" />
+    <script src="//atmpl.ru/design/adaptive-slider/2014/juicy-slider/jquery-1.10.2.js"></script>
+    <script src="//atmpl.ru/design/adaptive-slider/2014/juicy-slider/jquery-ui.min.js"></script>
+    <script src="//atmpl.ru/design/adaptive-slider/2014/juicy-slider/juicyslider-min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/pop-up.js"></script>
+
+
+</head>
+<body>
+<div class="row pop-up">
+    <div class="box_pop small-6 large-centered">
+        <a href="#" class="close-button">&#10006;</a>
+        <h3>Извините. был занят. не успел сделать в срок)</h3>
+    </div>
+</div>
+<div class="header">
+    <div class="header__top">
+        <p style="margin: 5px">
+            <a style="text-decoration: none ;border-bottom: 0.5px dashed white; color: white;" href="./index.html">Новосибирск </a>
+        </p>
+        <p style="margin: 5px">&longrightarrow;</p>
+        <p style="margin: 5px">
+            <a style="text-decoration: none ;border-bottom: 0.5px solid white; color: white;" href="./index.html">ул. Октябрьская, 34</a>
+        </p>
+        <p style="margin: 5px 5px 0 100px">
+            <a style="text-decoration: none ; color: white;" href="./index.html"><img src="img/phone.svg" alt=""></a>
+        </p>
+        <p style="margin: 5px">
+            <a style="text-decoration: none ; color: white;" href="./index.html">(383) 240-80-80, 240-80-00</a>
+        </p>
+        <p style="margin: 5px 5px 0 100px">
+            <li type="none" style="text-decoration: none ;border-bottom: 0.5px solid white; color: white; height: 20px; margin-right: 10px; margin: 5px;">Где купить</li>
+            <li type="none" style="text-decoration: none ;border-bottom: 0.5px solid white; color: white; height: 20px; margin-right: 10px; margin: 5px;">Гарантия</li>
+            <li type="none" style="text-decoration: none ;border-bottom: 0.5px solid white; color: white; height: 20px; margin-right: 10px; margin: 5px;">Доставка</li>
+        </p>
+        <p style="margin: 5px 0 0 60px">
+            <a style="text-decoration: none ;border-bottom: 0.5px dashed white; color: white;" href="./index.html">Мой арсенал</a>
+        </p>
+        <p style="margin: 5px 5px 0 100px">
+        <a style="text-decoration: none ; color: white; padding: 5px" href="./index.html"><img src="img/В.svg" alt=""></a>
+        </p>
+    </div>
+    <div class="header__logo">
+        <img src="img/лого_1_строка.svg" alt="">
+        <p style="color: gray;">Мы работаем на ваш талант!</p>
+    </div>
+
+    <div class="shop">
+        <img style="width: 25px; height: 20px; float: left; position: relative; top: 10px; left: 10px;" src="img/Layer_357.svg" alt="">
+        Корзина
+
+    </div>
+
+    <div class="header__bottom">
+        <ul class="header__bottom-menu" type="none">
+            <li><a style="color: #ae9459" class="header__bottom-menu-item" href="./"><strong>Акции</strong></a></li>
+            <li><a style="background: red; border-radius: 20px; color: white " class="header__bottom-menu-item"
+                   href="./">Музыкальные
+                инструменты</a></li>
+            <li><a class="header__bottom-menu-item" href="./">DJ</a></li>
+            <li><a class="header__bottom-menu-item" href="./">Шоу-техника</a></li>
+            <li><a class="header__bottom-menu-item" href="./">Студия</a></li>
+            <li><a class="header__bottom-menu-item" href="./">Звук</a></li>
+            <li><a class="header__bottom-menu-item" href="./">Свет</a></li>
+            <li><a class="header__bottom-menu-item" href="./">Коммутация</a></li>
+            <li><a class="header__bottom-menu-item" href="./">Стойки</a></li>
+
+        </ul>
+
+    </div>
+
+    <form class="search-container">
+        <input type="text" id="search-bar" placeholder="Поиск товаров">
+        <a href="#"><img class="search-icon"
+                         src="img/Shape_1_copy.jpg"></a>
+    </form>
+
+
+
+</div>
+<div class="content">
+    <div id="myslider3" class="juicyslider">
+        <ul>
+            <li><img src="img/slider.svg" alt="Слайд 1"></li>
+            <li><img src="img/peavey.jpg" alt="Слайд 2"></li>
+            <li><img src="img/slider-3.jpg" alt="Слайд 3"></li>
+        </ul>
+        <div class="mask"></div>
+    </div>
+    <script>
+        $(function() {
+            $('#myslider3').juicyslider({
+                width: '100%',
+                height: '500px',
+                mask: "strip",
+                bgcolor: "#000",
+                autoplay: 6000,
+                shuffle: false,
+                show: {effect: 'puff', duration: 5000},
+                hide: {effect: 'puff', duration: 3000},
+            });
+        });
+    </script>
+    <div class="rio-promos">
+        <img style="max-width: 500px" src="img/ABK.svg" />
+        <img style="max-width: 500px"  src="img/aria.svg" />
+        <img style="max-width: 500px"  src="img/jts.jpg" />
+        <img style="max-width: 500px"  src="img/pioneer.svg" />
+        <img style="max-width: 500px"  src="img/Robe.svg" />
+        <img style="max-width: 500px"  src="img/d'addario.svg" />
+        <img style="max-width: 500px"  src="img/schecter.svg" />
+    </div>
+    <div>
+        <div class='content__line'>
+            <div class='line-1'></div>
+            <div class='text'><a href="./">ВСЕ ПРОИЗВОДИТЕЛИ</a></div><br/>
+            <div class="content__bottom">
+                <a href="index.html" type="" style="margin-left: -23px; background: red; border-radius: 20px;position: relative; top: -8px; margin-right: 15px; color: white;">Инструменты</a>
+                <a href="index.html" type="" style="position: relative; top: -8px; margin-right: 15px; color: white;">Свет</a>
+                <a href="index.html" type="" style="position: relative; top: -8px; margin-right: 15px; color: white;">Цвет</a>
+                <a href="index.html" type="" style="position: relative; top: -8px; margin-right: 15px; color: white;">Уценка</a>
+            </div>
+        </div>
+    </div>
+    <div style="width: 100%;">
+        <div class="content__table">
+            <div class="table__bottom"><img src="img/left.png" alt=""></div>
+            <div class="content__table-row">
+
+                <img style="padding-bottom: 45px;" src="img/bayn.svg" alt="">
+                <h5><a href="./">Hohner Bravo III 96 RED </a></h5>
+                <p>
+                    Аккордеон,в стиле «Юнион Джек». Выпущен ограниченным тиражом
+                </p>
+                <p><s>89750</s> <strong style="color: red; padding-left: 10px;">83 550 &#8381</strong></p>
+            </div>
+            <div class="content__table-row">
+                <img style="padding-bottom: 45px;" src="img/bayn.svg" alt="">
+                <h5><a href="./">Hohner Bravo III 96 RED </a></h5>
+                <p>
+                    Аккордеон,в стиле «Юнион Джек». Выпущен ограниченным тиражом
+                </p>
+                <p><s>89750</s> <strong style="color: red; padding-left: 10px;">83 550 &#8381</strong></p>
+            </div>
+            <div class="content__table-row">
+                <img style="padding-bottom: 45px;" src="img/bayn.svg" alt="">
+                <h5><a href="./">Hohner Bravo III 96 RED </a></h5>
+                <p>
+                    Аккордеон,в стиле «Юнион Джек». Выпущен ограниченным тиражом
+                </p>
+                <p><s>89750</s> <strong style="color: red; padding-left: 10px;">83 550 &#8381</strong></p>
+            </div><div class="content__table-row">
+            <img style="padding-bottom: 45px;" src="img/bayn.svg" alt="">
+            <h5><a href="./">Hohner Bravo III 96 RED </a></h5>
+            <p>
+                Аккордеон,в стиле «Юнион Джек». Выпущен ограниченным тиражом
+            </p>
+            <p><s>89750</s> <strong style="color: red; padding-left: 10px;">83 550 &#8381</strong></p>
+        </div>
+            <div class="table__bottom"><img src="img/right.png" alt=""></div>
+        </div>
+        <div >
+            <div class="link__sales">
+                <a href="" class="link__sales-s">Все предложения</a>
+                <a href="" class="link__sales-s">Подписаться на распродажи</a>
+            </div>
+        </div>
+    </div>
+<div class="box-row">
+    <form>
+        <fieldset>
+            <legend class="service__name">Услуги</legend>
+
+            <div class="service">
+                <div class="service__box">
+
+                    <img src="./img/car.svg" class="service__img" alt="">
+                    <a href="" class="service__link">Доставка <br>до дверей</a>
+
+                    <div class="service__text">
+                        Цикл, в том числе, выстраивает пласт. Как мы уже знаем,
+                        форшлаг регрессийно образует
+                        звукорядный
+                        хорус.
+                    </div>
+                </div>
+                <div class="service__box">
+                    <img src="./img/music.svg" class="service__img" alt="">
+                    <a href="" class="service__link">Установка и  <br>настройка</a>
+                    <div class="service__text">
+                        Мы осуществляем проектирование и монтаж всего спектра
+                        поставляемого оборудования на любых
+                        типах
+                        объектов.
+                    </div>
+                </div>
+                <div class="service__box">
+                    <img src="./img/pen.svg" class="service__img" alt="">
+                    <a href="" class="service__link">Продажа в <br>кредит</a>
+                    <div class="service__text">
+                        Цикл, в том числе, выстраивает пласт.
+                        Как мы уже знаем, форшлаг регрессийно образует
+                        звукорядный хорус.
+                    </div>
+                </div>
+            </div>
+
+            <div class="service">
+                <div class="service__box">
+                    <img src="./img/key@2x.png" class="service__img" alt="">
+                    <a href="" class="service__link">Ремонт и <br>Обслуживание</a>
+                    <div class="service__text">
+                        Явление культурологического порядка, в первом приближении, с
+                        амопроизвольно. Глиссандо
+                        варьирует
+                        мелодический шоу-бизнес.
+                    </div>
+                </div>
+                <div class="service__box">
+                    <img src="./img/Layer_372.svg" class="service__img" alt="">
+                    <a href="" class="service__link">Обмен без<br>проблем</a>
+                    <div class="service__text">
+                        Группа Компаний LTM осуществляет проектирование и монтаж
+                        всего спектра поставляемого
+                        оборудования на любых типах объектов.
+                    </div>
+                </div>
+                <div class="service__box">
+                    <img src="./img/gift.svg" class="service__img" alt="">
+                    <a href="" class="service__link">Подарочные<br>карты</a>
+                    <div class="service__text">
+                        Ретро полифигурно просветляет звукосниматель, в таких
+                        условиях можно спокойно выпускать
+                        пластинки раз в три года.
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>
+
+<div style="width: 100%;">
+    <div class="box-row">
+        <div class="link__sales">
+            <p class="name">Акции</p>
+        </div>
+    </div>
+</div>
+<div style="width: 100%;">
+    <div class="box-row">
+        <div class="stock">
+            <div class="stock-box">
+                <img src="./img/stock__1.svg" class="stock-img" alt="">
+                <p class="stock-text">
+                <h3>Рассрочка без</h3> переплаты!<br>
+                В магазинах Музыкальный Арсенал до конца 2014 года Вы можете приобрести любой товар в рассрочку на 6
+                месяцев. 0% ПЕРЕПЛАТЫ! Первоначальный взнос 10%!</p>
+            </div>
+            <div class="stock-box">
+                <img src="./img/stock__2.svg" class="stock-img" alt="">
+                <p class="stock-text">
+                <h3>Арсеналу</h3>5 лет<br>
+                В магазинах Музыкальный Арсенал до конца 2014 года Вы можете приобрести любой товар в рассрочку на 6
+                месяцев. 0% ПЕРЕПЛАТЫ! Первоначальный взнос 10%!</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="width: 100%; text-align: center;">
+    <div class="box-row">
+        <div class="link__sales">
+            <a href="" class="link__sales-s">Все акции</a>
+            <a href="" class="link__sales-s">Подписаться на акции</a>
+        </div>
+    </div>
+</div>
+<div style="width: 100%;">
+    <div class="box-row">
+        <div class="link__sales">
+            <p class="name">Новинки</p>
+        </div>
+    </div>
+</div>
+<div style="width: 100%;">
+    <div class="content__table">
+        <div class="table__bottom"><img src="img/left.png" alt=""></div>
+        <div class="content__table-row">
+
+            <img style="padding-bottom: 45px;" src="img/bayan__2.svg" alt="">
+            <h5><a href="./">Hohner Bravo III 96 RED </a></h5>
+            <p>
+                Аккордеон,в стиле «Юнион Джек». Выпущен ограниченным тиражом
+            </p>
+            <p><s>89750</s> <strong style="color: red; padding-left: 10px;">83 550 &#8381</strong></p>
+        </div>
+        <div class="content__table-row">
+            <img style="padding-bottom: 45px;" src="img/bayan__2.svg" alt="">
+            <h5><a href="./">Hohner Bravo III 96 RED </a></h5>
+            <p>
+                Аккордеон,в стиле «Юнион Джек». Выпущен ограниченным тиражом
+            </p>
+            <p><s>89750</s> <strong style="color: red; padding-left: 10px;">83 550 &#8381</strong></p>
+        </div>
+        <div class="content__table-row">
+            <img style="padding-bottom: 45px;" src="img/bayan__2.svg" alt="">
+            <h5><a href="./">Hohner Bravo III 96 RED </a></h5>
+            <p>
+                Аккордеон,в стиле «Юнион Джек». Выпущен ограниченным тиражом
+            </p>
+            <p><s>89750</s> <strong style="color: red; padding-left: 10px;">83 550 &#8381</strong></p>
+        </div><div class="content__table-row">
+        <img style="padding-bottom: 45px;" src="img/bayan__2.svg" alt="">
+        <h5><a href="./">Hohner Bravo III 96 RED </a></h5>
+        <p>
+            Аккордеон,в стиле «Юнион Джек». Выпущен ограниченным тиражом
+        </p>
+        <p><s>89750</s> <strong style="color: red; padding-left: 10px;">83 550 &#8381</strong></p>
+    </div>
+        <div class="table__bottom"><img src="img/right.png" alt=""></div>
+</div>
+</div>
+<div style="width: 100%; text-align: center;">
+    <div class="box-row">
+        <div class="link__sales">
+            <a href="" class="link__sales-s">Все новинки</a>
+            <a href="" class="link__sales-s">Подписаться на новинки</a>
+        </div>
+    </div>
+</div>
+<div class="box-color" style="width: 100%">
+    <div class="box-row">
+        <div class="other">
+            <div class="other-block">
+
+                <div class="other-box">
+                    <h2>Новости</h2>
+                    <img src="./img/news__1.png" class="other-img" alt="">
+                    <h5 style="margin-bottom: -10px">Мастер-класс Данила Прокопьева в Краснодаре</h5><br>
+                    <p style="font-size: 13px;">Мастер-класс состоится 18 октября 2014 года в 15.30 в
+                        музыкальном центре SOROKA.</p>
+                    <i style="font-size: 10px;">18 июня 2014 г.</i>
+                </div>
+                <div class="other-box">
+                    <h2>Обзоры</h2>
+                    <img src="./img/news_3.svg" class="other-img" alt="">
+                    <h5 style="margin-bottom: -10px">Новые модели гитар Fina!</h5><br>
+                    <p style="font-size: 13px;">Классическая гитара Fina FC-603 и электроакустическая гитара
+                        FR-82CEQ!</p>
+                    <i style="font-size: 10px;">18 июня 2014 г.</i>
+                </div>
+            </div>
+            <div class="other-block">
+
+                <div class="other-box">
+
+                    <img src="./img/news__2.png" class="other-img" alt="">
+                    <h5 style="margin-bottom: -10px; margin-top: 0">Ирина Стачинская – официальный артист
+                        Powell</h5><br>
+                    <p style="font-size: 13px;">С 6 лет, с момента поступления в музыкальный колледж имени
+                        Гнесиных, ее самым
+                        <br> близким другом стала Флейта.</p>
+                    <i style="font-size: 10px;">18 июня 2014 г.</i>
+                </div>
+                <div class="other-box">
+                    <img src="./img/news__4.png" class="other-img" alt="">
+                    <h5 style="margin-bottom: -10px; margin-top: 0;">Новые модели гитар Fina!</h5><br>
+                    <p style="font-size: 13px;">Гитары Spread Music в Музыкальном АрсеналеВ широком ассортименте
+                        <br> товары для учащихся музыкальных школ: клавишные, духовые, струнные и ударные
+                        инструменты.</p>
+                    <i style="font-size: 10px;">18 июня 2014 г.</i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="footer__box">
+    <div class="footer-box">
+        <ul class="foot-menu">
+            <li class="foot-list;" style="font-size: 15px; margin-top: 30px"><h5>© 2014 Музыкальный арсенал</h5>
+            </li>
+            <li class="foot-list" style="text-decoration: underline">Првила использования сайта</li>
+            <li class="foot-list" style="text-decoration: underline">Разработка сайта-klassman.ru</li>
+            <li class="foot-list" style="text-decoration: underline">Дизайн сайта-klassman.ru</li>
+        </ul>
+    </div>
+    <div class="footer-box">
+        <ul class="foot-menu">
+            <li class="foot-list"><h3 style="margin: 0;">Магазин в Новосибирске</h3></li>
+            <li class="foot-list"><img style="margin-right: 10px" src="img/street.svg" alt="">ул. Октябрьская 34
+            </li>
+            <li class="foot-list"><img style="margin-right: 10px" src="img/phone_footer.svg" alt="">(383)240-80-80
+            </li>
+            <li class="foot-list"><img style="margin-right: 10px" src="img/time.svg" alt="">Сегодняс 10:00 до 19:00
+            </li>
+            <li class="foot-list">
+                <i class="footer__img"><img src="img/В.svg" alt=""></i>
+                <i class="footer__img"><img src="img/f.svg" alt=""></i>
+                <i class="footer__img"><img src="img/Avito.svg" alt=""></i>
+
+            </li>
+        </ul>
+    </div>
+    <div class="foot-box">
+        <ul class="foot-menu">
+            <li class="foot-list" style="text-decoration: underline">О компании</li>
+            <li class="foot-list" style="text-decoration: underline">Наша история</li>
+            <li class="foot-list" style="text-decoration: underline">Благодарности</li>
+            <li class="foot-list" style="text-decoration: underline">Партнёрам</li>
+            <li class="foot-list" style="text-decoration: underline">Магазины</li>
+            <li class="foot-list" style="text-decoration: underline">Контакты</li>
+        </ul>
+    </div>
+    <div class="foot-box">
+        <ul class="foot-menu">
+            <li class="foot-list" style="text-decoration: underline">Эндорсеры</li>
+            <li class="foot-list" style="text-decoration: underline">Коллектив</li>
+            <li class="foot-list" style="text-decoration: underline">Вакансии</li>
+            <li class="foot-list" style="text-decoration: underline">Новости</li>
+            <li class="foot-list" style="text-decoration: underline">Обзоры</li>
+        </ul>
+    </div>
+    <div class="foot-box">
+        <ul class="foot-menu">
+            <li class="foot-list" style="text-decoration: underline">Акции</li>
+            <li class="foot-list" style="text-decoration: underline">Распродажи</li>
+            <li class="foot-list" style="text-decoration: underline">Товары</li>
+            <li class="foot-list" style="text-decoration: underline">Услуги</li>
+            <li class="foot-list" style="text-decoration: underline">Производители</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
